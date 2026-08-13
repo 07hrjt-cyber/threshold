@@ -1,0 +1,39 @@
+name: MyWhoosh Sync
+
+on:
+  schedule:
+    - cron: '30 6 * * *'   # 6:30am UTC — offset from Garmin
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run MyWhoosh sync
+        env:
+          MYWHOOSH_EMAIL: ${{ secrets.MYWHOOSH_EMAIL }}
+          MYWHOOSH_PASSWORD: ${{ secrets.MYWHOOSH_PASSWORD }}
+        run: python mywhoosh_sync.py --days 3
+
+      - name: Commit updated data
+        run: |
+          git config user.name "mywhoosh-sync-bot"
+          git config user.email "actions@github.com"
+          git add threshold-mywhoosh-import.json
+          git add mywhoosh_raw_debug.json || true
+          git diff --staged --quiet || git commit -m "Daily MyWhoosh sync $(date -u +%Y-%m-%d)"
+          git push

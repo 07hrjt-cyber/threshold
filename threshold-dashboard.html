@@ -1840,10 +1840,10 @@ if(!state.settings.unitSystem){
   applyUnitSystem();
 }
 
-/* ================= Auto-sync from garmin_sync.py output ================= */
-/* On load, silently check for threshold-garmin-import.json sitting next to
-   this file. If found, merge it in automatically — no click required.
-   This only works when the page is served over http(s) (e.g. a local
+/* ================= Auto-sync from garmin_sync.py / strava_sync.py output ================= */
+/* On load, silently check for known sync JSON files sitting next to this
+   file. If found, merge them in automatically — no click required. This
+   only works when the page is served over http(s) (e.g. a local
    `python3 -m http.server`), not when opened directly as a file:// URL,
    since browsers block fetch() against local files for security reasons. */
 function showSyncStatus(msg){
@@ -1852,30 +1852,37 @@ function showSyncStatus(msg){
   setTimeout(()=>{ if(el.textContent===msg) el.textContent=''; }, 6000);
 }
 
-function checkForGarminSync(){
-  fetch('./threshold-garmin-import.json', { cache: 'no-store' })
-    .then(res => res.ok ? res.json() : Promise.reject())
-    .then(data => {
-      mergeImportedData(data);
-      const now = new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-      showSyncStatus(`Synced from Garmin · ${now}`);
-    })
-    .catch(()=>{ /* no sync file yet, or opened via file:// — silently skip */ });
+const SYNC_SOURCES = [
+  { file: 'threshold-garmin-import.json', label: 'Garmin' },
+  { file: 'threshold-mywhoosh-import.json', label: 'MyWhoosh' },
+];
+
+function checkForSyncFiles(){
+  SYNC_SOURCES.forEach(source => {
+    fetch('./'+source.file, { cache: 'no-store' })
+      .then(res => res.ok ? res.json() : Promise.reject())
+      .then(data => {
+        mergeImportedData(data);
+        const now = new Date().toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+        showSyncStatus(`Synced from ${source.label} · ${now}`);
+      })
+      .catch(()=>{ /* no sync file yet for this source, or opened via file:// — silently skip */ });
+  });
 }
 
-checkForGarminSync(); // check once immediately on load
+checkForSyncFiles(); // check once immediately on load
 
 // Then keep checking every 15 minutes while the page stays open, so a
 // tab left open on your phone or desktop picks up a fresh sync without
-// needing a manual reload. The daily GitHub Action only writes new data
-// once a day, but this catches it whenever that happens to land.
-setInterval(checkForGarminSync, 15 * 60 * 1000);
+// needing a manual reload. The daily GitHub Actions only write new data
+// once a day each, but this catches it whenever that happens to land.
+setInterval(checkForSyncFiles, 15 * 60 * 1000);
 
 // Also re-check whenever the tab becomes visible again (e.g. you switch
 // back to it after it's been in the background) — cheap and catches the
 // common case of "I opened this on my phone this morning."
 document.addEventListener('visibilitychange', ()=>{
-  if(document.visibilityState === 'visible') checkForGarminSync();
+  if(document.visibilityState === 'visible') checkForSyncFiles();
 });
 </script>
 
