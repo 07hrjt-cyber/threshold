@@ -3,10 +3,6 @@
     "sleepTime": {
       "history": [
         {
-          "date": "2026-08-16",
-          "value": 7.6
-        },
-        {
           "date": "2026-08-17",
           "value": 7.4
         },
@@ -17,15 +13,15 @@
         {
           "date": "2026-08-19",
           "value": 8.5
+        },
+        {
+          "date": "2026-08-20",
+          "value": 7.1
         }
       ]
     },
     "sleepScore": {
       "history": [
-        {
-          "date": "2026-08-16",
-          "value": 75
-        },
         {
           "date": "2026-08-17",
           "value": 82
@@ -37,15 +33,15 @@
         {
           "date": "2026-08-19",
           "value": 81
+        },
+        {
+          "date": "2026-08-20",
+          "value": 67
         }
       ]
     },
     "recovery": {
       "history": [
-        {
-          "date": "2026-08-16",
-          "value": 75
-        },
         {
           "date": "2026-08-17",
           "value": 86
@@ -57,15 +53,15 @@
         {
           "date": "2026-08-19",
           "value": 87
+        },
+        {
+          "date": "2026-08-20",
+          "value": 73
         }
       ]
     },
     "readiness": {
       "history": [
-        {
-          "date": "2026-08-16",
-          "value": 50
-        },
         {
           "date": "2026-08-17",
           "value": 56
@@ -77,6 +73,10 @@
         {
           "date": "2026-08-19",
           "value": 61
+        },
+        {
+          "date": "2026-08-20",
+          "value": 63
         }
       ]
     }
@@ -100,32 +100,6 @@
         "completedTSS": 94.90725708007812,
         "hrAvg": 134.0,
         "hrMax": 161.0,
-        "autoCalc": false,
-        "description": "",
-        "notes": "",
-        "comments": "",
-        "tags": "garmin-sync",
-        "equipment": ""
-      }
-    ],
-    "2026-08-16": [
-      {
-        "id": "garmin-23995277411",
-        "sport": "swim",
-        "title": "Pool Swim",
-        "duration": "0:54:46",
-        "plannedDuration": "0:54:46",
-        "completedDuration": "0:54:46",
-        "plannedDistance": 2.5,
-        "completedDistance": 2.5,
-        "plannedPace": "2:11",
-        "completedPace": "2:11",
-        "plannedCalories": 637.0,
-        "completedCalories": 637.0,
-        "plannedTSS": 87.69017028808594,
-        "completedTSS": 87.69017028808594,
-        "hrAvg": 132.0,
-        "hrMax": 168.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
