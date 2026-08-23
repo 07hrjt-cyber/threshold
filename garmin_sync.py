@@ -72,10 +72,30 @@ def login():
     except Exception:
         pass
 
-    if not email:
-        email = input("Garmin email: ").strip()
-    if not password:
-        password = getpass.getpass("Garmin password: ")
+    non_interactive = not sys.stdin.isatty()
+
+    if not email or not password:
+        if non_interactive:
+            missing = []
+            if not email:
+                missing.append("GARMIN_EMAIL")
+            if not password:
+                missing.append("GARMIN_PASSWORD")
+            sys.exit(
+                "No cached session, and running non-interactively (e.g. in "
+                "GitHub Actions) with missing credentials: " + ", ".join(missing) + ".\n"
+                "This usually means the repository secret wasn't set correctly:\n"
+                "  1. Settings -> Secrets and variables -> Actions\n"
+                "  2. Check the secret name matches exactly (case-sensitive, "
+                "no extra spaces)\n"
+                "  3. Re-enter the value — GitHub never shows a saved secret's "
+                "value again, only lets you overwrite it, so if it was ever "
+                "saved blank or mistyped it'll silently stay that way\n"
+            )
+        if not email:
+            email = input("Garmin email: ").strip()
+        if not password:
+            password = getpass.getpass("Garmin password: ")
 
     client = Garmin(email, password)
     client.login()
@@ -253,6 +273,44 @@ def pull_activities(client, start_str, end_str, imperial):
 # --------------------------------------------------------------------------
 # Main
 # --------------------------------------------------------------------------
+def load_existing(path):
+    """Load the previously-committed output file, if any, so this run
+    can merge onto it instead of overwriting years of history with a
+    3-day rolling window."""
+    if os.path.exists(path):
+        try:
+            with open(path) as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Could not read existing {path} ({e}) — starting fresh for this run.")
+    return {}
+
+
+def merge_metrics(existing, new):
+    for key, block in new.items():
+        existing.setdefault(key, {"history": []})
+        existing_hist = existing[key].setdefault("history", [])
+        for entry in block.get("history", []):
+            match = next((h for h in existing_hist if h["date"] == entry["date"]), None)
+            if match:
+                match["value"] = entry["value"]
+            else:
+                existing_hist.append(entry)
+    return existing
+
+
+def merge_calendar(existing, new):
+    for day_str, workouts in new.items():
+        existing.setdefault(day_str, [])
+        for w in workouts:
+            idx = next((i for i, x in enumerate(existing[day_str]) if x.get("id") == w.get("id")), None)
+            if idx is not None:
+                existing[day_str][idx] = w
+            else:
+                existing[day_str].append(w)
+    return existing
+
+
 def main():
     parser = argparse.ArgumentParser(description="Sync Garmin Connect data into a THRESHOLD-importable JSON file.")
     parser.add_argument("--days", type=int, default=30, help="How many days back to pull (default 30). Ignored if --start/--end given.")
@@ -295,19 +353,24 @@ def main():
 
     calendar = pull_activities(client, start_date.isoformat(), end_date.isoformat(), imperial)
 
-    output = {"metrics": metrics, "calendar": calendar}
+    # Merge onto whatever's already in the output file — this is what
+    # makes the repo a permanent, ever-growing archive rather than a
+    # rolling window that gets wiped on every run.
+    existing = load_existing(args.output)
+    merged_metrics = merge_metrics(existing.get("metrics", {}), metrics)
+    merged_calendar = merge_calendar(existing.get("calendar", {}), calendar)
+    output = {"metrics": merged_metrics, "calendar": merged_calendar}
 
     with open(args.output, "w") as f:
         json.dump(output, f, indent=2)
 
-    total_sessions = sum(len(v) for v in calendar.values())
+    total_sessions_this_run = sum(len(v) for v in calendar.values())
+    total_sessions_archive = sum(len(v) for v in merged_calendar.values())
     print(f"\nDone. Wrote {args.output}")
-    print(f"  Sleep entries:      {len(metrics['sleepTime']['history'])}")
-    print(f"  Sleep score entries:{len(metrics['sleepScore']['history'])}")
-    print(f"  Body Battery entries:{len(metrics['recovery']['history'])}")
-    print(f"  Readiness entries:  {len(metrics['readiness']['history'])}")
-    print(f"  Activities:         {total_sessions}")
-    print(f"\nOpen THRESHOLD -> avatar icon area's Import button -> select {args.output}")
+    print(f"  This run pulled:    {total_sessions_this_run} activities across {start_date} to {end_date}")
+    print(f"  Full archive now has: {total_sessions_archive} activities total, "
+          f"{sum(len(v['history']) for v in merged_metrics.values())} metric entries total")
+    print(f"\nOpen THRESHOLD -> Import button -> select {args.output}")
 
 
 if __name__ == "__main__":
