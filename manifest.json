@@ -1,0 +1,16 @@
+{
+  "name": "THRESHOLD — Personal Performance Record",
+  "short_name": "THRESHOLD",
+  "description": "Personal training dashboard — Athlete Profile, Sleep & Recovery, Calendar, and History.",
+  "start_url": "./threshold-dashboard.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f6f5",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
