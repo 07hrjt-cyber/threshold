@@ -92,7 +92,7 @@
         },
         {
           "date": "2026-08-24",
-          "value": 52
+          "value": 30
         }
       ]
     }
@@ -166,6 +166,58 @@
         "completedTSS": 110.55126953125,
         "hrAvg": 131.0,
         "hrMax": 179.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-08-25": [
+      {
+        "id": "garmin-24113569727",
+        "sport": "swim",
+        "title": "Pool Swim",
+        "duration": "0:58:17",
+        "plannedDuration": "0:58:17",
+        "completedDuration": "0:58:17",
+        "plannedDistance": 3.0,
+        "completedDistance": 3.0,
+        "plannedPace": "1:57",
+        "completedPace": "1:57",
+        "plannedCalories": 757.0,
+        "completedCalories": 757.0,
+        "plannedTSS": 95.67561340332031,
+        "completedTSS": 95.67561340332031,
+        "hrAvg": 138.0,
+        "hrMax": 169.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-08-24": [
+      {
+        "id": "garmin-24097361796",
+        "sport": "run",
+        "title": "East Hertfordshire Running",
+        "duration": "0:26:11",
+        "plannedDuration": "0:26:11",
+        "completedDuration": "0:26:11",
+        "plannedDistance": 5.01,
+        "completedDistance": 5.01,
+        "plannedPace": "5:14",
+        "completedPace": "5:14",
+        "plannedCalories": 417.0,
+        "completedCalories": 417.0,
+        "plannedTSS": 75.2208251953125,
+        "completedTSS": 75.2208251953125,
+        "hrAvg": 155.0,
+        "hrMax": 171.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
