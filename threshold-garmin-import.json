@@ -21,6 +21,22 @@
         {
           "date": "2026-08-24",
           "value": 7.7
+        },
+        {
+          "date": "2026-08-25",
+          "value": 7.8
+        },
+        {
+          "date": "2026-08-26",
+          "value": 7.1
+        },
+        {
+          "date": "2026-08-27",
+          "value": 3.6
+        },
+        {
+          "date": "2026-08-28",
+          "value": 8.6
         }
       ]
     },
@@ -45,6 +61,22 @@
         {
           "date": "2026-08-24",
           "value": 59
+        },
+        {
+          "date": "2026-08-25",
+          "value": 85
+        },
+        {
+          "date": "2026-08-26",
+          "value": 66
+        },
+        {
+          "date": "2026-08-27",
+          "value": 43
+        },
+        {
+          "date": "2026-08-28",
+          "value": 86
         }
       ]
     },
@@ -69,6 +101,22 @@
         {
           "date": "2026-08-24",
           "value": 83
+        },
+        {
+          "date": "2026-08-25",
+          "value": 86
+        },
+        {
+          "date": "2026-08-26",
+          "value": 81
+        },
+        {
+          "date": "2026-08-27",
+          "value": 42
+        },
+        {
+          "date": "2026-08-28",
+          "value": 88
         }
       ]
     },
@@ -93,6 +141,22 @@
         {
           "date": "2026-08-24",
           "value": 30
+        },
+        {
+          "date": "2026-08-25",
+          "value": 55
+        },
+        {
+          "date": "2026-08-26",
+          "value": 52
+        },
+        {
+          "date": "2026-08-27",
+          "value": 21
+        },
+        {
+          "date": "2026-08-28",
+          "value": 55
         }
       ]
     }
@@ -218,6 +282,58 @@
         "completedTSS": 75.2208251953125,
         "hrAvg": 155.0,
         "hrMax": 171.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-08-28": [
+      {
+        "id": "garmin-24146146644",
+        "sport": "swim",
+        "title": "Pool Swim",
+        "duration": "1:27:44",
+        "plannedDuration": "1:27:44",
+        "completedDuration": "1:27:44",
+        "plannedDistance": 4.0,
+        "completedDistance": 4.0,
+        "plannedPace": "2:12",
+        "completedPace": "2:12",
+        "plannedCalories": 951.0,
+        "completedCalories": 951.0,
+        "plannedTSS": 73.35455322265625,
+        "completedTSS": 73.35455322265625,
+        "hrAvg": 129.0,
+        "hrMax": 160.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-08-26": [
+      {
+        "id": "garmin-24120341498",
+        "sport": "run",
+        "title": "Treadmill Running",
+        "duration": "0:30:00",
+        "plannedDuration": "0:30:00",
+        "completedDuration": "0:30:00",
+        "plannedDistance": 5.5,
+        "completedDistance": 5.5,
+        "plannedPace": "5:27",
+        "completedPace": "5:27",
+        "plannedCalories": 463.0,
+        "completedCalories": 463.0,
+        "plannedTSS": 83.00912475585938,
+        "completedTSS": 83.00912475585938,
+        "hrAvg": 152.0,
+        "hrMax": 167.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
