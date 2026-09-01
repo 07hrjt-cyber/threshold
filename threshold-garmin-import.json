@@ -45,6 +45,10 @@
         {
           "date": "2026-08-30",
           "value": 6.6
+        },
+        {
+          "date": "2026-08-31",
+          "value": 7.8
         }
       ]
     },
@@ -93,6 +97,10 @@
         {
           "date": "2026-08-30",
           "value": 78
+        },
+        {
+          "date": "2026-08-31",
+          "value": 85
         }
       ]
     },
@@ -141,6 +149,10 @@
         {
           "date": "2026-08-30",
           "value": 93
+        },
+        {
+          "date": "2026-08-31",
+          "value": 98
         }
       ]
     },
@@ -189,6 +201,10 @@
         {
           "date": "2026-08-30",
           "value": 61
+        },
+        {
+          "date": "2026-08-31",
+          "value": 69
         }
       ]
     }
@@ -392,6 +408,32 @@
         "completedTSS": 110.66899108886719,
         "hrAvg": 135.0,
         "hrMax": 170.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-08-31": [
+      {
+        "id": "garmin-24181170875",
+        "sport": "run",
+        "title": "Treadmill Running",
+        "duration": "0:33:51",
+        "plannedDuration": "0:33:51",
+        "completedDuration": "0:33:51",
+        "plannedDistance": 6.0,
+        "completedDistance": 6.0,
+        "plannedPace": "5:39",
+        "completedPace": "5:39",
+        "plannedCalories": 511.0,
+        "completedCalories": 511.0,
+        "plannedTSS": 73.47669982910156,
+        "completedTSS": 73.47669982910156,
+        "hrAvg": 149.0,
+        "hrMax": 164.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
