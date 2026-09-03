@@ -53,6 +53,10 @@
         {
           "date": "2026-09-01",
           "value": 7.0
+        },
+        {
+          "date": "2026-09-02",
+          "value": 9.1
         }
       ]
     },
@@ -109,6 +113,10 @@
         {
           "date": "2026-09-01",
           "value": 57
+        },
+        {
+          "date": "2026-09-02",
+          "value": 75
         }
       ]
     },
@@ -165,6 +173,10 @@
         {
           "date": "2026-09-01",
           "value": 73
+        },
+        {
+          "date": "2026-09-02",
+          "value": 92
         }
       ]
     },
@@ -220,7 +232,11 @@
         },
         {
           "date": "2026-09-01",
-          "value": 42
+          "value": 50
+        },
+        {
+          "date": "2026-09-02",
+          "value": 47
         }
       ]
     }
@@ -476,6 +492,32 @@
         "completedTSS": 107.49037170410156,
         "hrAvg": 131.0,
         "hrMax": 173.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-09-02": [
+      {
+        "id": "garmin-24213841609",
+        "sport": "run",
+        "title": "East Hertfordshire Running",
+        "duration": "0:34:55",
+        "plannedDuration": "0:34:55",
+        "completedDuration": "0:34:55",
+        "plannedDistance": 7.01,
+        "completedDistance": 7.01,
+        "plannedPace": "4:59",
+        "completedPace": "4:59",
+        "plannedCalories": 537.0,
+        "completedCalories": 537.0,
+        "plannedTSS": 106.55116271972656,
+        "completedTSS": 106.55116271972656,
+        "hrAvg": 151.0,
+        "hrMax": 185.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
