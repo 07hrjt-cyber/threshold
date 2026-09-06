@@ -57,6 +57,18 @@
         {
           "date": "2026-09-02",
           "value": 9.1
+        },
+        {
+          "date": "2026-09-03",
+          "value": 7.3
+        },
+        {
+          "date": "2026-09-04",
+          "value": 6.4
+        },
+        {
+          "date": "2026-09-05",
+          "value": 7.9
         }
       ]
     },
@@ -117,6 +129,18 @@
         {
           "date": "2026-09-02",
           "value": 75
+        },
+        {
+          "date": "2026-09-03",
+          "value": 77
+        },
+        {
+          "date": "2026-09-04",
+          "value": 65
+        },
+        {
+          "date": "2026-09-05",
+          "value": 85
         }
       ]
     },
@@ -177,6 +201,18 @@
         {
           "date": "2026-09-02",
           "value": 92
+        },
+        {
+          "date": "2026-09-03",
+          "value": 83
+        },
+        {
+          "date": "2026-09-04",
+          "value": 65
+        },
+        {
+          "date": "2026-09-05",
+          "value": 98
         }
       ]
     },
@@ -237,6 +273,18 @@
         {
           "date": "2026-09-02",
           "value": 47
+        },
+        {
+          "date": "2026-09-03",
+          "value": 53
+        },
+        {
+          "date": "2026-09-04",
+          "value": 57
+        },
+        {
+          "date": "2026-09-05",
+          "value": 59
         }
       ]
     }
@@ -518,6 +566,58 @@
         "completedTSS": 106.55116271972656,
         "hrAvg": 151.0,
         "hrMax": 185.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-09-05": [
+      {
+        "id": "garmin-24246976791",
+        "sport": "run",
+        "title": "Treadmill Running",
+        "duration": "0:28:56",
+        "plannedDuration": "0:28:56",
+        "completedDuration": "0:28:56",
+        "plannedDistance": 5.2,
+        "completedDistance": 5.2,
+        "plannedPace": "5:34",
+        "completedPace": "5:34",
+        "plannedCalories": 385.0,
+        "completedCalories": 385.0,
+        "plannedTSS": 57.42573547363281,
+        "completedTSS": 57.42573547363281,
+        "hrAvg": 139.0,
+        "hrMax": 159.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-09-03": [
+      {
+        "id": "garmin-24246976567",
+        "sport": "swim",
+        "title": "Pool Swim",
+        "duration": "1:13:26",
+        "plannedDuration": "1:13:26",
+        "completedDuration": "1:13:26",
+        "plannedDistance": 3.0,
+        "completedDistance": 3.0,
+        "plannedPace": "2:27",
+        "completedPace": "2:27",
+        "plannedCalories": 804.0,
+        "completedCalories": 804.0,
+        "plannedTSS": 84.97830200195312,
+        "completedTSS": 84.97830200195312,
+        "hrAvg": 129.0,
+        "hrMax": 166.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
