@@ -109,6 +109,10 @@
         {
           "date": "2026-09-15",
           "value": 7.1
+        },
+        {
+          "date": "2026-09-16",
+          "value": 6.5
         }
       ]
     },
@@ -221,6 +225,10 @@
         {
           "date": "2026-09-15",
           "value": 61
+        },
+        {
+          "date": "2026-09-16",
+          "value": 64
         }
       ]
     },
@@ -333,6 +341,10 @@
         {
           "date": "2026-09-15",
           "value": 83
+        },
+        {
+          "date": "2026-09-16",
+          "value": 74
         }
       ]
     },
@@ -444,7 +456,11 @@
         },
         {
           "date": "2026-09-15",
-          "value": 36
+          "value": 41
+        },
+        {
+          "date": "2026-09-16",
+          "value": 43
         }
       ]
     }
@@ -958,6 +974,30 @@
         "completedTSS": 96.95640563964844,
         "hrAvg": 134.0,
         "hrMax": 172.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      },
+      {
+        "id": "garmin-24372229899",
+        "sport": "other",
+        "title": "Padel",
+        "duration": "1:14:23",
+        "plannedDuration": "1:14:23",
+        "completedDuration": "1:14:23",
+        "plannedDistance": 0.82,
+        "completedDistance": 0.82,
+        "plannedPace": "90:42",
+        "completedPace": "90:42",
+        "plannedCalories": 503.0,
+        "completedCalories": 503.0,
+        "plannedTSS": 13.923049926757812,
+        "completedTSS": 13.923049926757812,
+        "hrAvg": 110.0,
+        "hrMax": 149.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
