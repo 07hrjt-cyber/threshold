@@ -157,6 +157,10 @@
         {
           "date": "2026-09-27",
           "value": 7.5
+        },
+        {
+          "date": "2026-09-28",
+          "value": 6.9
         }
       ]
     },
@@ -317,6 +321,10 @@
         {
           "date": "2026-09-27",
           "value": 86
+        },
+        {
+          "date": "2026-09-28",
+          "value": 77
         }
       ]
     },
@@ -477,6 +485,10 @@
         {
           "date": "2026-09-27",
           "value": 91
+        },
+        {
+          "date": "2026-09-28",
+          "value": 81
         }
       ]
     },
@@ -637,6 +649,10 @@
         {
           "date": "2026-09-27",
           "value": 68
+        },
+        {
+          "date": "2026-09-28",
+          "value": 62
         }
       ]
     }
@@ -1530,6 +1546,56 @@
         "completedTSS": 112.05471801757812,
         "hrAvg": 152.0,
         "hrMax": 174.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-09-28": [
+      {
+        "id": "garmin-24528541375",
+        "sport": "run",
+        "title": "Norwich Running",
+        "duration": "0:10:19",
+        "plannedDuration": "0:10:19",
+        "completedDuration": "0:10:19",
+        "plannedDistance": 2.25,
+        "completedDistance": 2.25,
+        "plannedPace": "4:35",
+        "completedPace": "4:35",
+        "plannedCalories": 166.0,
+        "completedCalories": 166.0,
+        "plannedTSS": 48.31129455566406,
+        "completedTSS": 48.31129455566406,
+        "hrAvg": 151.0,
+        "hrMax": 188.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      },
+      {
+        "id": "garmin-24525576664",
+        "sport": "swim",
+        "title": "Pool Swim",
+        "duration": "1:22:46",
+        "plannedDuration": "1:22:46",
+        "completedDuration": "1:22:46",
+        "plannedDistance": 4.0,
+        "completedDistance": 4.0,
+        "plannedPace": "2:04",
+        "completedPace": "2:04",
+        "plannedCalories": 993.0,
+        "completedCalories": 993.0,
+        "plannedTSS": 79.97016906738281,
+        "completedTSS": 79.97016906738281,
+        "hrAvg": 136.0,
+        "hrMax": 160.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
