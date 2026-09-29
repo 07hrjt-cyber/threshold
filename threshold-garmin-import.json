@@ -161,6 +161,10 @@
         {
           "date": "2026-09-28",
           "value": 6.9
+        },
+        {
+          "date": "2026-09-29",
+          "value": 7.3
         }
       ]
     },
@@ -325,6 +329,10 @@
         {
           "date": "2026-09-28",
           "value": 77
+        },
+        {
+          "date": "2026-09-29",
+          "value": 80
         }
       ]
     },
@@ -489,6 +497,10 @@
         {
           "date": "2026-09-28",
           "value": 81
+        },
+        {
+          "date": "2026-09-29",
+          "value": 82
         }
       ]
     },
@@ -652,7 +664,11 @@
         },
         {
           "date": "2026-09-28",
-          "value": 62
+          "value": 52
+        },
+        {
+          "date": "2026-09-29",
+          "value": 67
         }
       ]
     }
@@ -1596,6 +1612,30 @@
         "completedTSS": 79.97016906738281,
         "hrAvg": 136.0,
         "hrMax": 160.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      },
+      {
+        "id": "garmin-24530101095",
+        "sport": "run",
+        "title": "South Norfolk Running",
+        "duration": "0:52:57",
+        "plannedDuration": "0:52:57",
+        "completedDuration": "0:52:57",
+        "plannedDistance": 10.1,
+        "completedDistance": 10.1,
+        "plannedPace": "5:15",
+        "completedPace": "5:15",
+        "plannedCalories": 794.0,
+        "completedCalories": 794.0,
+        "plannedTSS": 87.47257995605469,
+        "completedTSS": 87.47257995605469,
+        "hrAvg": 148.0,
+        "hrMax": 172.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
