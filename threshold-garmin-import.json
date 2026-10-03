@@ -173,6 +173,14 @@
         {
           "date": "2026-10-01",
           "value": 5.3
+        },
+        {
+          "date": "2026-10-02",
+          "value": 3.5
+        },
+        {
+          "date": "2026-10-03",
+          "value": 9.7
         }
       ]
     },
@@ -349,6 +357,14 @@
         {
           "date": "2026-10-01",
           "value": 70
+        },
+        {
+          "date": "2026-10-02",
+          "value": 38
+        },
+        {
+          "date": "2026-10-03",
+          "value": 92
         }
       ]
     },
@@ -525,6 +541,14 @@
         {
           "date": "2026-10-01",
           "value": 88
+        },
+        {
+          "date": "2026-10-02",
+          "value": 52
+        },
+        {
+          "date": "2026-10-03",
+          "value": 99
         }
       ]
     },
@@ -700,7 +724,15 @@
         },
         {
           "date": "2026-10-01",
-          "value": 58
+          "value": 70
+        },
+        {
+          "date": "2026-10-02",
+          "value": 25
+        },
+        {
+          "date": "2026-10-03",
+          "value": 82
         }
       ]
     }
@@ -1694,6 +1726,58 @@
         "completedTSS": 69.21875,
         "hrAvg": 126.0,
         "hrMax": 162.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-02": [
+      {
+        "id": "garmin-24581832088",
+        "sport": "other",
+        "title": "Norwich Walking",
+        "duration": "0:20:16",
+        "plannedDuration": "0:20:16",
+        "completedDuration": "0:20:16",
+        "plannedDistance": 1.62,
+        "completedDistance": 1.62,
+        "plannedPace": "12:31",
+        "completedPace": "12:31",
+        "plannedCalories": 115.0,
+        "completedCalories": 115.0,
+        "plannedTSS": 2.5853424072265625,
+        "completedTSS": 2.5853424072265625,
+        "hrAvg": 88.0,
+        "hrMax": 107.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-01": [
+      {
+        "id": "garmin-24570668608",
+        "sport": "other",
+        "title": "Yoga",
+        "duration": "0:24:46",
+        "plannedDuration": "0:24:46",
+        "completedDuration": "0:24:46",
+        "plannedDistance": "",
+        "completedDistance": "",
+        "plannedPace": "",
+        "completedPace": "",
+        "plannedCalories": 46.0,
+        "completedCalories": 46.0,
+        "plannedTSS": 0.326202392578125,
+        "completedTSS": 0.326202392578125,
+        "hrAvg": 64.0,
+        "hrMax": 102.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
