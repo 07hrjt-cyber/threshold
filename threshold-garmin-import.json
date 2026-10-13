@@ -217,6 +217,10 @@
         {
           "date": "2026-10-12",
           "value": 7.4
+        },
+        {
+          "date": "2026-10-13",
+          "value": 6.9
         }
       ]
     },
@@ -437,6 +441,10 @@
         {
           "date": "2026-10-12",
           "value": 80
+        },
+        {
+          "date": "2026-10-13",
+          "value": 78
         }
       ]
     },
@@ -657,6 +665,10 @@
         {
           "date": "2026-10-12",
           "value": 80
+        },
+        {
+          "date": "2026-10-13",
+          "value": 75
         }
       ]
     },
@@ -877,6 +889,10 @@
         {
           "date": "2026-10-12",
           "value": 52
+        },
+        {
+          "date": "2026-10-13",
+          "value": 54
         }
       ]
     }
@@ -2150,6 +2166,32 @@
         "completedTSS": 73.34486389160156,
         "hrAvg": 143.0,
         "hrMax": 162.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-13": [
+      {
+        "id": "garmin-24705739648",
+        "sport": "swim",
+        "title": "Pool Swim",
+        "duration": "1:23:05",
+        "plannedDuration": "1:23:05",
+        "completedDuration": "1:23:05",
+        "plannedDistance": 4.0,
+        "completedDistance": 4.0,
+        "plannedPace": "2:05",
+        "completedPace": "2:05",
+        "plannedCalories": 1012.0,
+        "completedCalories": 1012.0,
+        "plannedTSS": 116.920166015625,
+        "completedTSS": 116.920166015625,
+        "hrAvg": 138.0,
+        "hrMax": 172.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
