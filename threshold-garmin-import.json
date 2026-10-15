@@ -225,6 +225,10 @@
         {
           "date": "2026-10-14",
           "value": 6.8
+        },
+        {
+          "date": "2026-10-15",
+          "value": 7.5
         }
       ]
     },
@@ -453,6 +457,10 @@
         {
           "date": "2026-10-14",
           "value": 80
+        },
+        {
+          "date": "2026-10-15",
+          "value": 82
         }
       ]
     },
@@ -681,6 +689,10 @@
         {
           "date": "2026-10-14",
           "value": 80
+        },
+        {
+          "date": "2026-10-15",
+          "value": 80
         }
       ]
     },
@@ -908,7 +920,11 @@
         },
         {
           "date": "2026-10-14",
-          "value": 64
+          "value": 1
+        },
+        {
+          "date": "2026-10-15",
+          "value": 2
         }
       ]
     }
@@ -2208,6 +2224,106 @@
         "completedTSS": 116.920166015625,
         "hrAvg": 138.0,
         "hrMax": 172.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-15": [
+      {
+        "id": "garmin-24731655958",
+        "sport": "bike",
+        "title": "Norwich Cycling",
+        "duration": "0:08:47",
+        "plannedDuration": "0:08:47",
+        "completedDuration": "0:08:47",
+        "plannedDistance": 3.37,
+        "completedDistance": 3.37,
+        "plannedPace": "23.0",
+        "completedPace": "23.0",
+        "plannedCalories": 115.0,
+        "completedCalories": 115.0,
+        "plannedTSS": 41.61470031738281,
+        "completedTSS": 41.61470031738281,
+        "hrAvg": 132.0,
+        "hrMax": 162.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-14": [
+      {
+        "id": "garmin-24726261301",
+        "sport": "run",
+        "title": "Norwich Running",
+        "duration": "0:03:11",
+        "plannedDuration": "0:03:11",
+        "completedDuration": "0:03:11",
+        "plannedDistance": 0.65,
+        "completedDistance": 0.65,
+        "plannedPace": "4:54",
+        "completedPace": "4:54",
+        "plannedCalories": 50.0,
+        "completedCalories": 50.0,
+        "plannedTSS": 12.61865234375,
+        "completedTSS": 12.61865234375,
+        "hrAvg": 145.0,
+        "hrMax": 156.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      },
+      {
+        "id": "garmin-24724198330",
+        "sport": "run",
+        "title": "Norwich Track Running",
+        "duration": "0:33:29",
+        "plannedDuration": "0:33:29",
+        "completedDuration": "0:33:29",
+        "plannedDistance": 6.36,
+        "completedDistance": 6.36,
+        "plannedPace": "5:16",
+        "completedPace": "5:16",
+        "plannedCalories": 543.0,
+        "completedCalories": 543.0,
+        "plannedTSS": 277.83184814453125,
+        "completedTSS": 277.83184814453125,
+        "hrAvg": 160.0,
+        "hrMax": 193.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      },
+      {
+        "id": "garmin-24726260920",
+        "sport": "run",
+        "title": "Norwich Running",
+        "duration": "0:14:19",
+        "plannedDuration": "0:14:19",
+        "completedDuration": "0:14:19",
+        "plannedDistance": 3.12,
+        "completedDistance": 3.12,
+        "plannedPace": "4:35",
+        "completedPace": "4:35",
+        "plannedCalories": 225.0,
+        "completedCalories": 225.0,
+        "plannedTSS": 57.85661315917969,
+        "completedTSS": 57.85661315917969,
+        "hrAvg": 145.0,
+        "hrMax": 165.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
