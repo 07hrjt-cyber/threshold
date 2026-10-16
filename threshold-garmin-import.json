@@ -229,6 +229,10 @@
         {
           "date": "2026-10-15",
           "value": 7.5
+        },
+        {
+          "date": "2026-10-16",
+          "value": 6.7
         }
       ]
     },
@@ -461,6 +465,10 @@
         {
           "date": "2026-10-15",
           "value": 82
+        },
+        {
+          "date": "2026-10-16",
+          "value": 80
         }
       ]
     },
@@ -693,6 +701,10 @@
         {
           "date": "2026-10-15",
           "value": 80
+        },
+        {
+          "date": "2026-10-16",
+          "value": 87
         }
       ]
     },
@@ -925,6 +937,10 @@
         {
           "date": "2026-10-15",
           "value": 2
+        },
+        {
+          "date": "2026-10-16",
+          "value": 11
         }
       ]
     }
@@ -2256,6 +2272,30 @@
         "comments": "",
         "tags": "garmin-sync",
         "equipment": ""
+      },
+      {
+        "id": "garmin-24733152914",
+        "sport": "bike",
+        "title": "South Norfolk Cycling",
+        "duration": "0:08:41",
+        "plannedDuration": "0:08:41",
+        "completedDuration": "0:08:41",
+        "plannedDistance": 2.63,
+        "completedDistance": 2.63,
+        "plannedPace": "18.2",
+        "completedPace": "18.2",
+        "plannedCalories": 83.0,
+        "completedCalories": 83.0,
+        "plannedTSS": 20.71038818359375,
+        "completedTSS": 20.71038818359375,
+        "hrAvg": 114.0,
+        "hrMax": 155.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
       }
     ],
     "2026-10-14": [
@@ -2324,6 +2364,32 @@
         "completedTSS": 57.85661315917969,
         "hrAvg": 145.0,
         "hrMax": 165.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-16": [
+      {
+        "id": "garmin-24742015018",
+        "sport": "run",
+        "title": "Norwich Running",
+        "duration": "0:41:07",
+        "plannedDuration": "0:41:07",
+        "completedDuration": "0:41:07",
+        "plannedDistance": 8.0,
+        "completedDistance": 8.0,
+        "plannedPace": "5:08",
+        "completedPace": "5:08",
+        "plannedCalories": 625.0,
+        "completedCalories": 625.0,
+        "plannedTSS": 71.77882385253906,
+        "completedTSS": 71.77882385253906,
+        "hrAvg": 144.0,
+        "hrMax": 175.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
