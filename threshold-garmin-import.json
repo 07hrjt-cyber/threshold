@@ -253,6 +253,10 @@
         {
           "date": "2026-10-21",
           "value": 7.1
+        },
+        {
+          "date": "2026-10-22",
+          "value": 7.0
         }
       ]
     },
@@ -509,6 +513,10 @@
         {
           "date": "2026-10-21",
           "value": 81
+        },
+        {
+          "date": "2026-10-22",
+          "value": 74
         }
       ]
     },
@@ -765,6 +773,10 @@
         {
           "date": "2026-10-21",
           "value": 84
+        },
+        {
+          "date": "2026-10-22",
+          "value": 70
         }
       ]
     },
@@ -1020,7 +1032,11 @@
         },
         {
           "date": "2026-10-21",
-          "value": 72
+          "value": 35
+        },
+        {
+          "date": "2026-10-22",
+          "value": 44
         }
       ]
     }
@@ -2646,6 +2662,32 @@
         "completedTSS": 81.16392517089844,
         "hrAvg": 142.0,
         "hrMax": 165.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-21": [
+      {
+        "id": "garmin-24805197666",
+        "sport": "run",
+        "title": "Norwich Running",
+        "duration": "0:46:43",
+        "plannedDuration": "0:46:43",
+        "completedDuration": "0:46:43",
+        "plannedDistance": 10.11,
+        "completedDistance": 10.11,
+        "plannedPace": "4:37",
+        "completedPace": "4:37",
+        "plannedCalories": 791.0,
+        "completedCalories": 791.0,
+        "plannedTSS": 281.15423583984375,
+        "completedTSS": 281.15423583984375,
+        "hrAvg": 160.0,
+        "hrMax": 191.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
