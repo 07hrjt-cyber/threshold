@@ -269,6 +269,14 @@
         {
           "date": "2026-10-25",
           "value": 7.3
+        },
+        {
+          "date": "2026-10-26",
+          "value": 7.2
+        },
+        {
+          "date": "2026-10-27",
+          "value": 7.5
         }
       ]
     },
@@ -541,6 +549,14 @@
         {
           "date": "2026-10-25",
           "value": 65
+        },
+        {
+          "date": "2026-10-26",
+          "value": 77
+        },
+        {
+          "date": "2026-10-27",
+          "value": 83
         }
       ]
     },
@@ -816,7 +832,11 @@
         },
         {
           "date": "2026-10-26",
-          "value": 65
+          "value": 92
+        },
+        {
+          "date": "2026-10-27",
+          "value": 100
         }
       ]
     },
@@ -1089,6 +1109,14 @@
         {
           "date": "2026-10-25",
           "value": 59
+        },
+        {
+          "date": "2026-10-26",
+          "value": 62
+        },
+        {
+          "date": "2026-10-27",
+          "value": 67
         }
       ]
     }
@@ -2839,6 +2867,58 @@
         "plannedTSS": 30.7646484375,
         "completedTSS": 30.7646484375,
         "hrAvg": 141.0,
+        "hrMax": 161.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-27": [
+      {
+        "id": "garmin-24865833730",
+        "sport": "run",
+        "title": "Norwich Running",
+        "duration": "0:40:02",
+        "plannedDuration": "0:40:02",
+        "completedDuration": "0:40:02",
+        "plannedDistance": 7.21,
+        "completedDistance": 7.21,
+        "plannedPace": "5:33",
+        "completedPace": "5:33",
+        "plannedCalories": 583.0,
+        "completedCalories": 583.0,
+        "plannedTSS": 64.88774108886719,
+        "completedTSS": 64.88774108886719,
+        "hrAvg": 144.0,
+        "hrMax": 159.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-10-26": [
+      {
+        "id": "garmin-24860241038",
+        "sport": "swim",
+        "title": "Pool Swim",
+        "duration": "1:02:27",
+        "plannedDuration": "1:02:27",
+        "completedDuration": "1:02:27",
+        "plannedDistance": 2.5,
+        "completedDistance": 2.5,
+        "plannedPace": "2:30",
+        "completedPace": "2:30",
+        "plannedCalories": 624.0,
+        "completedCalories": 624.0,
+        "plannedTSS": 50.71864318847656,
+        "completedTSS": 50.71864318847656,
+        "hrAvg": 120.0,
         "hrMax": 161.0,
         "autoCalc": false,
         "description": "",
