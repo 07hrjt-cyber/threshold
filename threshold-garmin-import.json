@@ -333,6 +333,10 @@
         {
           "date": "2026-11-12",
           "value": 8.0
+        },
+        {
+          "date": "2026-11-13",
+          "value": 6.9
         }
       ]
     },
@@ -669,6 +673,10 @@
         {
           "date": "2026-11-12",
           "value": 76
+        },
+        {
+          "date": "2026-11-13",
+          "value": 79
         }
       ]
     },
@@ -1013,6 +1021,10 @@
         {
           "date": "2026-11-12",
           "value": 79
+        },
+        {
+          "date": "2026-11-13",
+          "value": 87
         }
       ]
     },
@@ -1357,6 +1369,10 @@
         {
           "date": "2026-11-12",
           "value": 74
+        },
+        {
+          "date": "2026-11-13",
+          "value": 69
         }
       ]
     }
@@ -3414,6 +3430,32 @@
         "completedTSS": 64.97428894042969,
         "hrAvg": 137.0,
         "hrMax": 161.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-11-13": [
+      {
+        "id": "garmin-25062405556",
+        "sport": "other",
+        "title": "Cardio",
+        "duration": "0:50:46",
+        "plannedDuration": "0:50:46",
+        "completedDuration": "0:50:46",
+        "plannedDistance": "",
+        "completedDistance": "",
+        "plannedPace": "",
+        "completedPace": "",
+        "plannedCalories": 369.0,
+        "completedCalories": 369.0,
+        "plannedTSS": 35.60997009277344,
+        "completedTSS": 35.60997009277344,
+        "hrAvg": 111.0,
+        "hrMax": 160.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
