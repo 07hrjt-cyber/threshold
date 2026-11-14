@@ -337,6 +337,10 @@
         {
           "date": "2026-11-13",
           "value": 6.9
+        },
+        {
+          "date": "2026-11-14",
+          "value": 4.0
         }
       ]
     },
@@ -677,6 +681,10 @@
         {
           "date": "2026-11-13",
           "value": 79
+        },
+        {
+          "date": "2026-11-14",
+          "value": 48
         }
       ]
     },
@@ -1025,6 +1033,10 @@
         {
           "date": "2026-11-13",
           "value": 87
+        },
+        {
+          "date": "2026-11-14",
+          "value": 53
         }
       ]
     },
@@ -1372,7 +1384,11 @@
         },
         {
           "date": "2026-11-13",
-          "value": 69
+          "value": 75
+        },
+        {
+          "date": "2026-11-14",
+          "value": 1
         }
       ]
     }
@@ -3456,6 +3472,32 @@
         "completedTSS": 35.60997009277344,
         "hrAvg": 111.0,
         "hrMax": 160.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-11-14": [
+      {
+        "id": "garmin-25074832336",
+        "sport": "other",
+        "title": "Hinckley and Bosworth Multisport",
+        "duration": "1:08:43",
+        "plannedDuration": "1:08:43",
+        "completedDuration": "1:08:43",
+        "plannedDistance": 27.66,
+        "completedDistance": 27.66,
+        "plannedPace": "2:29",
+        "completedPace": "2:29",
+        "plannedCalories": 1254.0,
+        "completedCalories": 1254.0,
+        "plannedTSS": 455.7622985839844,
+        "completedTSS": 455.7622985839844,
+        "hrAvg": "",
+        "hrMax": 200.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
