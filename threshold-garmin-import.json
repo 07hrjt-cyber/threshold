@@ -365,6 +365,10 @@
         {
           "date": "2026-11-20",
           "value": 7.6
+        },
+        {
+          "date": "2026-11-21",
+          "value": 7.8
         }
       ]
     },
@@ -733,6 +737,10 @@
         {
           "date": "2026-11-20",
           "value": 78
+        },
+        {
+          "date": "2026-11-21",
+          "value": 54
         }
       ]
     },
@@ -1109,6 +1117,10 @@
         {
           "date": "2026-11-20",
           "value": 69
+        },
+        {
+          "date": "2026-11-21",
+          "value": 82
         }
       ]
     },
@@ -1485,6 +1497,10 @@
         {
           "date": "2026-11-20",
           "value": 70
+        },
+        {
+          "date": "2026-11-21",
+          "value": 47
         }
       ]
     }
@@ -3646,6 +3662,32 @@
         "completedTSS": 62.288330078125,
         "hrAvg": 151.0,
         "hrMax": 165.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-11-21": [
+      {
+        "id": "garmin-25151577254",
+        "sport": "other",
+        "title": "East Hertfordshire Walking",
+        "duration": "1:23:44",
+        "plannedDuration": "1:23:44",
+        "completedDuration": "1:23:44",
+        "plannedDistance": 7.01,
+        "completedDistance": 7.01,
+        "plannedPace": "11:57",
+        "completedPace": "11:57",
+        "plannedCalories": 455.0,
+        "completedCalories": 455.0,
+        "plannedTSS": 10.573883056640625,
+        "completedTSS": 10.573883056640625,
+        "hrAvg": 81.0,
+        "hrMax": 110.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
