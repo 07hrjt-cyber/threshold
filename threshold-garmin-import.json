@@ -389,6 +389,10 @@
         {
           "date": "2026-11-26",
           "value": 7.5
+        },
+        {
+          "date": "2026-11-27",
+          "value": 7.3
         }
       ]
     },
@@ -781,6 +785,10 @@
         {
           "date": "2026-11-26",
           "value": 87
+        },
+        {
+          "date": "2026-11-27",
+          "value": 66
         }
       ]
     },
@@ -1181,6 +1189,10 @@
         {
           "date": "2026-11-26",
           "value": 97
+        },
+        {
+          "date": "2026-11-27",
+          "value": 79
         }
       ]
     },
@@ -1581,6 +1593,10 @@
         {
           "date": "2026-11-26",
           "value": 92
+        },
+        {
+          "date": "2026-11-27",
+          "value": 50
         }
       ]
     }
@@ -3820,6 +3836,56 @@
         "completedTSS": 44.583160400390625,
         "hrAvg": 137.0,
         "hrMax": 157.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      }
+    ],
+    "2026-11-27": [
+      {
+        "id": "garmin-25214546138",
+        "sport": "other",
+        "title": "Badminton",
+        "duration": "0:38:47",
+        "plannedDuration": "0:38:47",
+        "completedDuration": "0:38:47",
+        "plannedDistance": 0.08,
+        "completedDistance": 0.08,
+        "plannedPace": "484:51",
+        "completedPace": "484:51",
+        "plannedCalories": 238.0,
+        "completedCalories": 238.0,
+        "plannedTSS": 14.820053100585938,
+        "completedTSS": 14.820053100585938,
+        "hrAvg": 101.0,
+        "hrMax": 179.0,
+        "autoCalc": false,
+        "description": "",
+        "notes": "",
+        "comments": "",
+        "tags": "garmin-sync",
+        "equipment": ""
+      },
+      {
+        "id": "garmin-25214159553",
+        "sport": "run",
+        "title": "Treadmill Running",
+        "duration": "0:23:47",
+        "plannedDuration": "0:23:47",
+        "completedDuration": "0:23:47",
+        "plannedDistance": 5.07,
+        "completedDistance": 5.07,
+        "plannedPace": "4:42",
+        "completedPace": "4:42",
+        "plannedCalories": 364.0,
+        "completedCalories": 364.0,
+        "plannedTSS": 103.30307006835938,
+        "completedTSS": 103.30307006835938,
+        "hrAvg": 156.0,
+        "hrMax": 188.0,
         "autoCalc": false,
         "description": "",
         "notes": "",
